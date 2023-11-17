@@ -15,7 +15,7 @@ plt.style.use('ggplot')
 
 y, x = produce(n=10, m=5, s=2)
 
-plt.scatter(x,y, color = 'r', marker="o")
+plt.plot(x,y, color = 'r', marker="o")
 plt.xlabel("Random numbers", fontsize=20)
 plt.ylabel("$y=x^{(1/2)(m/s)}$", fontsize=20)
 plt.show()
